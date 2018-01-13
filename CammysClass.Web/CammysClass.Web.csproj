@@ -185,6 +185,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -202,6 +203,16 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CammysClass.DTO\CammysClass.DTO.csproj">
+      <Project>{b7663447-bc6f-4eae-8fb4-08326297a180}</Project>
+      <Name>CammysClass.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CammysClass.Models\CammysClass.Models.csproj">
+      <Project>{e95551b3-89ab-4b4f-9226-dde1d26e0728}</Project>
+      <Name>CammysClass.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

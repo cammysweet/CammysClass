@@ -10,6 +10,10 @@ namespace CammysClass.Web.Controllers
     {
         public ActionResult Index()
         {
+
+
+
+
             return View();
         }
 
@@ -24,6 +28,11 @@ namespace CammysClass.Web.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Login()
+        {
             return View();
         }
     }
